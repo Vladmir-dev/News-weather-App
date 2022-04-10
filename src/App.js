@@ -12,7 +12,7 @@ import LocalNews from './components/pages/LocalNews';
 import GlobalNews from './components/pages/GlobalNews';
 import Entertainment from './components/pages/Entertainment';
 import SportsNews from './components/pages/SportsNews';
-import Carousel from './components/carousel/Carousel';
+import Carou from './components/carousel/Carou';
 import Politics from './components/pages/Politics';
 import Footer from './components/Footer'
 import SignUp from "./components/Footer"
@@ -38,23 +38,11 @@ function App() {
     <div className="App">
      
       <NavMak/>
-      <div className="container">
-      <div className='carousel'>
-        <div className="carousel-inner"> 
-        { slides.map((slide, index) => (
-           <div className="carousel-item">
-          <Carousel
-           slides={slides}
-           interval={5000} 
-           controls={true} 
-          indicators={true}
-           />
-          </div> 
-        ))}       
-                
-        </div>
-      </div>
-    </div>
+      
+      
+          <Carou/>
+              
+              
       {/* <div className='news'>
       
       {

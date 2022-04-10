@@ -48,8 +48,7 @@ export default function SwipeableTemporaryDrawer() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
-      bgcolor="burlywood"
-      color="black"
+      
       >
     
       <div className="nav-items" bgcolor= "burlywood">
@@ -62,47 +61,7 @@ export default function SwipeableTemporaryDrawer() {
         <ListItem><a href="/Sports">Sports</a></ListItem>
         <ListItem><a href="/entertainment">Entertainment</a></ListItem>
          
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem> 
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>
-        <ListItem><a href="/entertainment"></a></ListItem>  
-
+        
       
       </div>
      

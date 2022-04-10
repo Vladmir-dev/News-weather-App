@@ -5,6 +5,7 @@
     transition: 0.3s;
     animation: ease-in;
     margin-top: 25px;
+    background-color: white;
     
 }
 
@@ -43,11 +44,12 @@ h3,p{
 }
 .btn button{
     padding: 0.5rem;
-      background-color: burlywood;
+      background-color: purple;
     border: none;
     transform: 0.2s;
     margin-bottom: 0.5rem;
-    border-radius: 3px;
+    border-radius: 10px;
+    color:white
 }
 .btn button:hover{
     background-color: rgba(27, 156, 252, 0.1); 
